@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 import 'body_applist.dart';
 import 'body_footer.dart';
+import 'body_optimizer.dart';
 
 
 void main(List<String> args) {
@@ -40,7 +41,7 @@ class HomePage extends StatelessWidget {
       ),
       body: Column(
         children: [
-          // BodyOptimizer(),
+          BodyOptimizer(),
           // BodyIndicater(),
           BodyApplist(),
           BodyFooter(),

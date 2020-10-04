@@ -15,7 +15,7 @@ class _BodyApplistState extends State<BodyApplist> {
       child: Card(
         child: Column(
           children: <Widget>[
-            ListTile(
+            ListTile(   /// [***  共通書式の反復なら、メソッド化クラス化で変数渡しも有り ***]
               leading: Icon(Icons.apps, color: Colors.purple),
               title: Text("App Drainage"),
               subtitle: Text("Show the most draining enegy app"),
