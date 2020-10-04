@@ -21,7 +21,7 @@ class _BodyApplistState extends State<BodyApplist> {
               subtitle: Text("Show the most draining enegy app"),
               trailing: Text(""),
             ),
-            Divider(height:2, thickness:3, indent:20, endIndent:20),
+            Divider(height:2, thickness:2, indent:20, endIndent:20),
             ListTile(
               leading: Icon(Icons.sms, color: Colors.blue),
               title: Text("SMSApp"),

@@ -45,6 +45,7 @@ class OptimizerList extends StatelessWidget{
   @override
   Widget build(BuildContext context) {
     return RaisedButton(
+      elevation: 0,
       child: Text(namedParameterText),
       color: Colors.blueGrey[100],
       shape: StadiumBorder(),
